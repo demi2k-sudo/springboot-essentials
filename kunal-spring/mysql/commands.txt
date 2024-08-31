@@ -1,0 +1,46 @@
+PS F:\Essentials\SpringBoot\kunal-spring\mysql> Invoke-WebRequest -Uri http://localhost:8080/demo/add -Method Post -Body "name=Naboth Demetrius&email=nabothdemetrius@gmail.com"
+
+
+StatusCode        : 200
+StatusDescription :
+Content           : {"id":1,"name":"Naboth Demetrius","emai 
+                    l":"nabothdemetrius@gmail.com"}
+RawContent        : HTTP/1.1 200
+                    Transfer-Encoding: chunked
+                    Content-Type: application/json
+                    Date: Fri, 30 Aug 2024 17:59:31 GMT     
+
+                    {"id":1,"name":"Naboth Demetrius","emai 
+                    l":"nabothdemetrius@gmail.com"}
+Forms             : {}
+Headers           : {[Transfer-Encoding, chunked],
+                    [Content-Type, application/json],       
+                    [Date, Fri, 30 Aug 2024 17:59:31 GMT]}  
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass                RawContentLength  : 70                                                                                                                                                              
+
+PS F:\Essentials\SpringBoot\kunal-spring\mysql> curl http://localhost:8080/demo/all                                     
+                                                            
+
+StatusCode        : 200
+StatusDescription :
+Content           : [{"id":1,"name":"Naboth Demetrius","ema 
+                    il":"nabothdemetrius@gmail.com"}]       
+RawContent        : HTTP/1.1 200
+                    Transfer-Encoding: chunked
+                    Content-Type: application/json
+                    Date: Fri, 30 Aug 2024 17:59:48 GMT     
+
+                    [{"id":1,"name":"Naboth Demetrius","ema 
+                    il":"nabothdemetrius@gmail.com"}]       
+Forms             : {}
+Headers           : {[Transfer-Encoding, chunked],
+                    [Content-Type, application/json],       
+                    [Date, Fri, 30 Aug 2024 17:59:48 GMT]}  
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 72
